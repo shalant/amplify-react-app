@@ -1,5 +1,5 @@
 import './App.css';
-import Amplify from 'aws-amplify';
+import Amplify from 'aws-amplify/api-graphql';
 import awsconfig from './aws-exports';
 import { AmplifySignOut, withAuthenticator } from '@aws-amplify/ui-react';
 
